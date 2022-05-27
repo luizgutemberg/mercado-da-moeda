@@ -2,10 +2,10 @@
   
   <div class=" container ">
       <div class="row">
-        <h1> Mercado da Moeda </h1>
+        <h1 class="text-center"> Mercado da Moeda </h1>
 
         <input type="text"
-          class="form-control bg-dark text-light rounded-0 border-0 my-4"
+          class="form-control text-light rounded-0 border-0 my-4"
           placeholder="Prourar por Moeda"
           @keyup="searchCoin()"
           v-model="textSearch"
@@ -64,6 +64,11 @@
           </tbody>
         </table>
       </div> 
+
+      <span class="disclaimer"><a class="text-danger text-xs underline" >ISENÇÃO DE RESPONSABILIDADE IMPORTANTE:</a></span>
+
+
+      <span class="text-lite text-xs"> Todos os conteúdos fornecidos no nosso website, sites hiperligados, aplicações associadas, fóruns, blogs, contas nas redes sociais e noutras plataformas ("website") são apenas para sua informação geral obtida por fontes de terceiros. Não fazemos garantias de qualquer tipo em relação ao nosso conteúdo, por exemplo, a precisão e atualização. Nenhuma parte do conteúdo que fornecemos constitui aconselhamento financeiro, jurídico nem qualquer outra forma de aconselhamento para a sua confiança específica por qualquer motivo. Qualquer utilização ou confiança no nosso conteúdo é unicamente da sua responsabilidade. Deve realizar a sua própria pesquisa, avaliação, análise e verificar o nosso conteúdo antes de confiar nele. Os câmbios são uma atividade de alto risco que pode levar a grandes perdas, portanto, consulte o seu consultor financeiro antes de tomar qualquer decisão. Nenhum conteúdo no nosso website é uma solicitação ou oferta.</span>
 
 
   </div>
