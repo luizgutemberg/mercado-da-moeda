@@ -1,4 +1,5 @@
-# vue-coingecko-api
+# Mercado da Moeda
+
 
 ## Project setup
 ```
