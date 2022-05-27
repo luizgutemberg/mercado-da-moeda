@@ -2,11 +2,11 @@
   
   <div class=" container">
       <div class="row">
-        <h1> Coin Market </h1>
+        <h1> Mercado da Moeda </h1>
 
         <input type="text"
           class="form-control bg-dark text-light rounded-0 border-0 my-4"
-          placeholder="Search Coin"
+          placeholder="Prourar por Moeda"
           @keyup="searchCoin()"
           v-model="textSearch"
         />
@@ -79,7 +79,7 @@ export default {
     return{
       coins: [],
       filteredCoins: [],
-      titles:[ "#", "Coin", "Price","Price Change","24h Volume"],
+      titles:[ "#", "Coin", "Preço","Price Change","24h Volume"],
       textSearch: "",
         
     };
