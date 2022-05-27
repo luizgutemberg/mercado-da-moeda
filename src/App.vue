@@ -3,6 +3,7 @@
   <div class=" container ">
       <div class="row">
         <h1 class="text-center"> Mercado da Moeda </h1>
+        <img src="../img/coins-logo.svg" height="42" width="42">
 
         <input type="text"
           class="form-control text-light rounded-0 border-0 my-4"
