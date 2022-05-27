@@ -1,6 +1,6 @@
 <template>
   
-  <div class=" container">
+  <div class=" container ">
       <div class="row">
         <h1> Mercado da Moeda </h1>
 
@@ -11,7 +11,7 @@
           v-model="textSearch"
         />
 
-        <table class="table table-dark">
+        <table class="table table-light">
           <thead>
             <tr>
               <th v-for="title in titles" :key="title">
